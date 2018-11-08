@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="TP2AW">
+		<meta name="author" content="Imad MESSILI">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="icon" type="image/png" href="./images/js.png">
+		<title>Imad MESSILI TP2AW</title>
+		<link rel='stylesheet' type ='text/css' href ='./css/style.css'/>
+		<script type="text/javascript" src="./js/formulaire.js"></script>
+
+	</head>
+			
+		<body>
+
+			<h1>Veuillez inserer vos données SVP!</h1>
+			
+				<div class='container'>
+
+						<form class = 'box' method = "post" action="#" >
+								<input name = 'nom' id = "nom" type = 'text' placeholder = 'Nom' autofocus> <br/>
+								<input name = 'prenom' id = "prenom" type = 'text' placeholder = 'Prenom'> <br/>
+								<input name = 'date' id = "date" type = 'date' placeholder = 'jj/mm/AAAA'> <br/>
+								<input name = 'adresse' id = "adresse" type = 'text' placeholder = 'Adresse'> <br/>
+								<input name = 'mail' id = "mail" type = 'email' placeholder = 'Mail'> <br/>
+								<input type = 'button' id ="btn" value = "Valider" onclick = "validation();"/><br/>
+						</form>
+
+						<div id="error">
+							<p></p>
+						</div>
+
+						<div id="resultat">
+							<p>Bienvenue IMAD</p>
+						</div>
+				</div>
+				
+		</body>
+	</html>
